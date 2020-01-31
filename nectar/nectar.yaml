@@ -1,0 +1,4 @@
+# playbook file
+- hosts: localhost
+  roles:
+    - role: openstack-del

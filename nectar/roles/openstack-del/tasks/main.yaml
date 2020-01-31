@@ -1,0 +1,4 @@
+- name: remove an instance
+  os_server:
+    name: 90fb6849-8772-44f6-8005-daaaeafe1bb0
+    state: absent
