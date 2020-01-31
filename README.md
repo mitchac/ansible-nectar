@@ -4,6 +4,10 @@ I started from the code in this repo
 
 https://gitlab.eng.unimelb.edu.au/christianLan/ccc-assignment2-team69/tree/master/Ansible/nectar
 
+consider also add remove heat stack 
+
+https://docs.ansible.com/ansible/latest/modules/os_stack_module.html
+
 consider previous ansible scripts i created before..
 
 https://gitlab.unimelb.edu.au/macunningham/bioinf/tree/master/nectar
