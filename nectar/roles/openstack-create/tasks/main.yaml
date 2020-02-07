@@ -1,0 +1,11 @@
+- name: Create instances
+  os_server:
+    name: ansibletest
+    image: 99d9449a-084f-4901-8bd8-c04aebd589ca
+    key_name: mrcemri
+    flavor: uom.general.2c8g
+    availability_zone: melbourne-qh2-uom
+    auto_floating_ip: yes
+    wait: yes
+    timeout: 600
+    state: present

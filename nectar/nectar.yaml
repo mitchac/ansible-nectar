@@ -2,3 +2,4 @@
 - hosts: localhost
   roles:
     - role: openstack-del
+    - role: openstack-create
