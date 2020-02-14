@@ -5,6 +5,9 @@
     key_name: mrcemri
     flavor: uom.general.2c8g
     availability_zone: melbourne-qh2-uom
+    security_groups:
+      - default
+      - ssh
     auto_floating_ip: yes
     wait: yes
     timeout: 600
