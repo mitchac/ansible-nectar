@@ -1,0 +1,8 @@
+- name: Create volume on NeCTAR
+  os_volume:
+    display_name: voltest
+    size: 100
+    availability_zone: melbourne-qh2
+    wait: yes
+    timeout: 600
+    state: present
