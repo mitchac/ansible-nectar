@@ -1,0 +1,9 @@
+# Attaches a volume to a compute host
+- name: attach volume to host
+  os_server_volume:
+    state: present
+    server: ansibletest
+    volume: voltest
+    device: /dev/vdb
+
+
