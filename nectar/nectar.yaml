@@ -4,3 +4,4 @@
     - role: openstack-del
     - role: openstack-create
     - role: openstack-volume
+    - role: openstack-server-volume
