@@ -1,7 +1,7 @@
 - name: Create instances
   os_server:
     name: ansibletest
-    image: 99d9449a-084f-4901-8bd8-c04aebd589ca
+    image: 45225edb-66d8-4fd0-bf41-132a31a18166
     key_name: mrcemri
     flavor: uom.general.2c8g
     availability_zone: melbourne-qh2-uom
