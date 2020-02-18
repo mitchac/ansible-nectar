@@ -1,47 +1,48 @@
-# goal - create and configure instances on Nectar cloud using ansible. 
+## Goal: Create an instance on Nectar / Melbourne Research Cloud. 
 
-I started from the code in this repo 
+### Step 1 
 
-https://gitlab.eng.unimelb.edu.au/christianLan/ccc-assignment2-team69/tree/master/Ansible/nectar
+Create a Conda enviroment on your computer
 
-consider also add remove heat stack 
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
 
-https://docs.ansible.com/ansible/latest/modules/os_stack_module.html
+### Step 2
 
-consider previous ansible scripts i created before..
-
-https://gitlab.unimelb.edu.au/macunningham/bioinf/tree/master/nectar
-
-useful docs here..
-
-https://docs.ansible.com/ansible/latest/modules/list_of_cloud_modules.html#openstack
-
-this could be useful also..
-
-https://github.com/SiteHuang/Building-a-Cloud-System
-
-# create conda env
-
-# install python-openstackclient
+Install python-openstackclient
 
 per installation section of this doc..
 
 https://support.ehelp.edu.au/support/solutions/articles/6000075747-api
 
-# obtain nectar authentication info 
+### Step 3
+Obtain nectar authentication info 
 
 per configuration section of this doc..
 
 https://support.ehelp.edu.au/support/solutions/articles/6000075747-api
 
-# execute script to export nectar environment vars downloaded previously
+### Step 4
 
-# clone this repo
+Execute script to export nectar environment vars downloaded previously
 
-# cd nectar folder
+### Step 5 
 
-# run the following command..
+Clone this repo
+
+### Step 6
+
+cd nectar folder
+
+### Step 7 
+
+Run the following command..
 
 ansible-playbook --ask-become-pass nectar.yaml
 
 enter the password downloaded from nectar when prompted (circa 20 chars, alphanumeric)
+
+### Notes / References
+
+I started from the code in this repo 
+
+https://gitlab.eng.unimelb.edu.au/christianLan/ccc-assignment2-team69/tree/master/Ansible/nectar
