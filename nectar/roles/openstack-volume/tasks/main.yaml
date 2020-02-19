@@ -1,6 +1,6 @@
 - name: Create volume on NeCTAR
   os_volume:
-    display_name: voltest
+    display_name: myvol
     size: 200
     availability_zone: melbourne-qh2
     wait: yes
