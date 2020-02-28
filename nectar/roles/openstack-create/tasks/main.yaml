@@ -1,9 +1,9 @@
 - name: Create instances
   os_server:
-    name: ansibletest
+    name: '{{ instance_name }}'
     image: 45225edb-66d8-4fd0-bf41-132a31a18166
     key_name: mrcemri
-    flavor: uom.hicores.16c144g
+    flavor: uom.hicores.8c72g
     availability_zone: melbourne-qh2-uom
     security_groups:
       - default

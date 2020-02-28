@@ -2,8 +2,8 @@
 - name: attach volume to host
   os_server_volume:
     state: present
-    server: ansibletest
-    volume: myvol
+    server: '{{ instance_name }}'
+    volume: '{{ volume_name }}'
     device: /dev/vdb
 
 
