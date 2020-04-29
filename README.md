@@ -2,19 +2,18 @@
 
 ### Step 1 
 
-Create a Conda enviroment on your computer
+Clone this repo
 
-https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
+https://github.com/mitchac/ansible-nectar
 
 ### Step 2
 
-Install python-openstackclient
+Create the environment from the environment.yml file and activate the new environment "openstack"
 
-per installation section of this doc..
-
-https://support.ehelp.edu.au/support/solutions/articles/6000075747-api
+conda env create -f environment.yml
 
 ### Step 3
+
 Obtain nectar authentication info 
 
 per configuration section of this doc..
@@ -23,17 +22,15 @@ https://support.ehelp.edu.au/support/solutions/articles/6000075747-api
 
 ### Step 4
 
-Execute script to export nectar environment vars downloaded previously
+Execute script to export nectar environment vars downloaded previously 
 
-### Step 5 
+through Authentication section of the previous doc
 
-Clone this repo
-
-### Step 6
+### Step 5
 
 cd nectar folder
 
-### Step 7 
+### Step 6 
 
 Run the following command..
 
