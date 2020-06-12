@@ -4,8 +4,6 @@
 
 Clone this repo
 
-https://github.com/mitchac/ansible-nectar
-
 ### Step 2
 
 Create the environment from the environment.yml file and activate the new environment "openstack"
