@@ -1,10 +1,10 @@
-## Goal: Create an instance on Nectar / Melbourne Research Cloud. 
+### Goal
+
+Create an instance on Nectar / Melbourne Research Cloud. 
 
 ### Step 1 
 
 Clone this repo
-
-https://github.com/mitchac/ansible-nectar
 
 ### Step 2
 
