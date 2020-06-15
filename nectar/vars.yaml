@@ -1,4 +1,4 @@
-instance_name: mitch_instance
-flavor: uom.hicores.8c72g
-volume_name: mitch_vol
+instance_name: nf-core-mag-instance
+flavor: uom.hicores.16c144g
+volume_name: nf-core-mag-vol
 
