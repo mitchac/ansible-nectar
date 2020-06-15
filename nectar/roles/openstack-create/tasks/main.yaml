@@ -8,6 +8,7 @@
     security_groups:
       - default
       - ssh
+      - icmp
     auto_floating_ip: yes
     wait: yes
     timeout: 600
