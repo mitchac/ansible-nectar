@@ -2,7 +2,7 @@
   os_volume:
     display_name: '{{ volume_name }}'
     size: 200
-    availability_zone: melbourne-qh2
+    availability_zone: melbourne-qh2-uom
     wait: yes
     timeout: 600
     state: present
