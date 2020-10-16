@@ -1,14 +1,14 @@
 - name: Create instances
   os_server:
     name: '{{ instance_name }}'
-    image: 45225edb-66d8-4fd0-bf41-132a31a18166
+    image: 2d820605-ef8f-4be5-8562-eb86204960cc
     key_name: mrcemri
     flavor: '{{ flavor }}'
     availability_zone: melbourne-qh2-uom
     security_groups:
       - default
       - ssh
-      - icmp
+      - ping
     auto_floating_ip: yes
     wait: yes
     timeout: 600
