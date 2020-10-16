@@ -2,7 +2,7 @@
   os_server:
     name: '{{ instance_name }}'
     image: 2d820605-ef8f-4be5-8562-eb86204960cc
-    key_name: {{ key_name }}
+    key_name: '{{ key_name }}'
     flavor: '{{ flavor }}'
     availability_zone: melbourne-qh2-uom
     security_groups:
