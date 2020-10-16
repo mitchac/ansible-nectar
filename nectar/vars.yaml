@@ -1,4 +1,5 @@
 instance_name: nf-core-mag-instance
 flavor: uom.hicores.16c144g
 volume_name: nf-core-mag-vol
+key_name: 
 
